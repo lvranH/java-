@@ -1,5 +1,10 @@
 一CBBAC  DDDCB  BC
 二13AB  14ABC  15 CD   16ABD
-三17 Separator.java
+三17 Separator.java（代码中局部变量的命名不合适）
+String log ="zhangsan,18,192.168.36.22,8.8.8.8";
+        String[] array=log.split(",");
+        for(String str:array){
+            System.out.println(str);
+        }
   18  点燃第一柱香的一端，把第二柱香两端同时点燃，当第二柱香燃烧完，
       已经过去半个小时，同时点燃第一柱香的另一端，待第一柱香烧尽，时间刚好15分钟。
